@@ -1,1 +1,7 @@
-﻿<h1> WELCOME COMPANY </h1>
+﻿@model string
+<h1> WELCOME COMPANY </h1>
+
+@if(Model != null)
+{
+    <p> You created a company @Model</p>
+}

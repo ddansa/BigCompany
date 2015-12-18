@@ -7,13 +7,15 @@ namespace BigCompanyLab.Models.Classes
 {
     public class Company
     {
-        public Company(string companyName, string address, int employeecount)
+        public Company()
+        {
+        }
+        public Company(string companyName, string address, int empolyeeCount)
         {
             CompanyName = companyName;
             Address = address;
-            EmployeeCount = employeecount;
+            EmployeeCount = empolyeeCount;
         }
-
         public string CompanyName { get; set; }
         public string Address { get; set; }
         public int EmployeeCount { get; set; }
