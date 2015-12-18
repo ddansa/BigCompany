@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6811B990-6F19-4E10-B8F8-1371D2EE43DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1FCA3FDD-8D73-4799-91AE-E383B38C6E52}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BigCompanyLab", "src\BigCompanyLab\BigCompanyLab.xproj", "{6A907B22-A27B-49F7-A7FF-DC7E4AFA73A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A907B22-A27B-49F7-A7FF-DC7E4AFA73A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A907B22-A27B-49F7-A7FF-DC7E4AFA73A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A907B22-A27B-49F7-A7FF-DC7E4AFA73A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A907B22-A27B-49F7-A7FF-DC7E4AFA73A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A907B22-A27B-49F7-A7FF-DC7E4AFA73A3} = {6811B990-6F19-4E10-B8F8-1371D2EE43DC}
+	EndGlobalSection
+EndGlobal
